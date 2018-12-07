@@ -13,8 +13,8 @@ import cucumber.api.junit.Cucumber;
 		         //dryRun=true,
 		         plugin={"pretty",
 		        		 "html:target/cucumber-htmlreport",
-		        		 "json:target/cucumber-report.json6",
-		        		 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport6.html"}
+		        		 "json:target/cucumber-report.json",
+		        		 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
 	
 		
 		

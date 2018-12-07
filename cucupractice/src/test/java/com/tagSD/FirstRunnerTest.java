@@ -16,8 +16,8 @@ import cucumber.api.junit.Cucumber;
 		         tags={"@Regression,@Smoke"},//OR condition
 		         plugin={"pretty",
 		        		 "html:target/cucumber-htmlreport",
-		        		 "json:target/cucumber-report.json7",
-		        		 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport7.html"}
+		        		 "json:target/cucumber-report.json",
+		        		 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
 	
 		
 		

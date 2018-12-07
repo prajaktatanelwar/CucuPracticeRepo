@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 									"html:target/cucumber-htmlreport", 
 									"json:target/cucumber-report"+111+".json",
 									"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"
-								 }"}
+								 }
 	
 		
 		

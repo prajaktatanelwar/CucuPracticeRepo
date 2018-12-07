@@ -14,10 +14,11 @@ import cucumber.api.junit.Cucumber;
 		         //tags={"@Smoke"},
 		         //tags={"@Regression","@Smoke"},// AND condition, scenario will be executed where this condition is mentioned in feature file.
 		         tags={"@Regression,@Smoke"},//OR condition
-		         plugin={"pretty",
-		        		 "html:target/cucumber-htmlreport",
-		        		 "json:target/cucumber-report.json",
-		        		 "com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"}
+		        		 plugin = {"pretty", 
+									"html:target/cucumber-htmlreport", 
+									"json:target/cucumber-report"+111+".json",
+									"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport.html"
+								 }
 	
 		
 		
